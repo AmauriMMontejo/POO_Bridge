@@ -72,6 +72,8 @@ namespace NotificationsBridge {
 
         alert.setchannel(new whatsappchannel());
         alert.notify("You have 1 missed call...");
+        reminder.setchannel(new whatsappchannel());
+        reminder.notify("You have 1 missed call...");
     }
 
     main();
